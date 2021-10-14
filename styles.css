@@ -22,15 +22,16 @@ nav ul{
   padding: 0;
   list-style: none;
 }
-nav li {
-  display: inline-block;
+nav li {display: inline-block;
   margin:0 70px;
   padding-top: 25px;
   padding-bottom: 25px;
+  
   }
-
-
-
+.nav a:hover{color: rgb(87, 198, 218);
+    font-weight: 600;
+    text-decoration: underline;
+  }
 nav a {
   color:aliceblue ;
   text-decoration: none;
@@ -55,8 +56,9 @@ color: aliceblue;
 font-weight:normal;}
 figure {
         float: right;
-        margin: 0 600px 40px 0;
+        margin: 0 200px 40px 0;
       }
+
 table {
   margin: 0 35px;
   color: red;
