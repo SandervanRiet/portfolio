@@ -3,7 +3,8 @@ sans-serif;background-image: url("thumb.jpg");
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover
+background-size: cover;
+
 }
 .container { 
 width: 80%;
@@ -43,27 +44,36 @@ font-weight:300;
 line-height:20px;
 font-weight:300;
 width:960px;
-color: red;}
-h1{color:red;
+color:black;
+ 
+}
+h1{
 font-size:48px;
 line-height:30px;
-color:aliceblue;
+color:black;
 font-weight:600;
+opacity: 1;
 }
 h2{font-size:18px;
 line-height:20px;
-color: aliceblue;
+color: black;
 font-weight:normal;}
 figure {
         float: right;
         margin: 0 200px 40px 0;
+        
       }
 
 table {
   margin: 0 35px;
-  color: red;
+  color: black(17, 15, 15);
 }
-ul { color:red ;}
+ul { color:black ;}
 body{
   margin: 0px;
  }
+ main{ background: rgb(255, 255, 255,0.6);
+  
+  
+
+}
